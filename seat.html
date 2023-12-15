@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theater Seat Booking</title>
+    <link rel="stylesheet" href="seat.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="row head">
+        <h2> Ticket Booking</h2>
+
+    </div>
+
+    <div>
+
+        <div class="container" style="border: 3px outset; border-radius: 4px;">
+            <div class="row">
+                <div class="col-12" style="background-color: #ffdae2;">
+                    <div class="row movie">
+                        <div class="col-2">
+                            <img src="image/annapoorani.jpg" alt="movie picture" width="110%">
+
+
+                        </div>
+
+                        <div class="col-4">
+                            <h3 style="margin-top: 10px; background: -webkit-linear-gradient(#A50080, #EF3A65);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;">Annapoorani (U) - Tamil</h3>
+                            <h3 style="margin-left: 40px;background: -webkit-linear-gradient(#A50080, #EF3A65);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;">04 DEC, 6:40PM</h3>
+                            <div class="row">
+                                <div class="col-4" style="margin-top: 10px;">
+                                    <p
+                                        style="border: 2px solid rgba(187, 187, 187, 255); text-align: center; border-radius: 6px; color: rgba(187, 187, 187, 255);background-color: white;">
+                                        12.00 PM<br><span>2D</span></p>
+                                </div>
+
+                                <div class="col-4" style="margin-top: 10px;">
+                                    <p
+                                        style="border: 2px solid orangered;text-align: center; border-radius: 6px; color: orangered; background-color: white;">
+                                        12.00 PM<br><span>2D</span></p>
+                                </div>
+
+                                <div class="col-4" style="margin-top: 10px;">
+                                    <p
+                                        style="border: 2px solid #A50080 ;background-image: linear-gradient(#A50080,#EF3A65);color: wheat;text-align: center; border-radius: 6px;">
+                                        12.00 PM<br><span>2D</span></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-1">
+
+                        </div>
+
+                        <div class="col-1">
+                            <div class="nav-bar available">
+                                <p class="small-btn-text-content">Available</p>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="nav-bar select">
+                                <p class="small-btn-text-content">Selected</p>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="nav-bar booking">
+                                <p class="small-btn-text-content">Booked</p>
+                            </div>
+                        </div>
+                        <div class="col-1">
+
+                        </div>
+
+                        <div class="col-1">
+                            <img src="image/close_icon.png" alt="" srcset="" width="40px"
+                                style="margin-left: 10px;margin-top: 60px;color: gray;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platinum Seat -->
+            <div class="container text-center platinum" id="platinum">
+                <h4>Platinum - RS.200</h4>
+
+
+                <div class="row platinum">
+                    <div class="row-label">AA</div>
+                    <!-- First 5 seats -->
+                    <div class="seat reserved">1</div>
+                    <div class="seat reserved">2</div>
+                    <div class="seat reserved">3</div>
+                    <div class="seat reserved">4</div>
+                    <div class="seat reserved">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat reserved">6</div>
+                    <div class="seat reserved">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat reserved">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat reserved">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat reserved">18</div>
+                    <div class="seat reserved">19</div>
+                    <div class="seat available">20</div>
+                </div>
+                <!-- sencond row -->
+                <div class="row platinum">
+                    <div class="row-label">BB</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+                <!-- three row -->
+                <div class="row platinum">
+                    <div class="row-label">CC</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+                <!-- fourth row -->
+                <div class="row platinum">
+                    <div class="row-label">DD</div>
+                    <!-- First 5 seats -->
+                    <div class="seat reserved">1</div>
+                    <div class="seat reserved">2</div>
+                    <div class="seat reserved">3</div>
+                    <div class="seat reserved">4</div>
+                    <div class="seat reserved">5</div>
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat reserved">6</div>
+                    <div class="seat reserved">7</div>
+                    <div class="seat reserved">8</div>
+                    <div class="seat reserved">9</div>
+                    <div class="seat reserved">10</div>
+                    <div class="seat reserved">11</div>
+                    <div class="seat reserved">12</div>
+                    <div class="seat reserved">13</div>
+                    <div class="seat reserved">14</div>
+                    <div class="seat reserved">15</div>
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat reserved">16</div>
+                    <div class="seat reserved">17</div>
+                    <div class="seat reserved">18</div>
+                    <div class="seat reserved">19</div>
+                    <div class="seat reserved">20</div>
+                </div>
+                <!--fiveth row -->
+                <div class="row platinum">
+                    <div class="row-label">EE</div>
+                    <!-- First 5 seats -->
+                    <div class="seat reserved">1</div>
+                    <div class="seat reserved">2</div>
+                    <div class="seat reserved">3</div>
+                    <div class="seat reserved">4</div>
+                    <div class="seat reserved">5</div>
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat reserved">6</div>
+                    <div class="seat reserved">7</div>
+                    <div class="seat reserved">8</div>
+                    <div class="seat reserved">9</div>
+                    <div class="seat reserved">10</div>
+                    <div class="seat reserved">11</div>
+                    <div class="seat reserved">12</div>
+                    <div class="seat reserved">13</div>
+                    <div class="seat reserved">14</div>
+                    <div class="seat reserved">15</div>
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat reserved">16</div>
+                    <div class="seat reserved">17</div>
+                    <div class="seat reserved">18</div>
+                    <div class="seat reserved">19</div>
+                    <div class="seat reserved">20</div>
+                </div>
+
+
+
+            </div>
+            <!-- Gold Seat -->
+            <div class="container text-center" id="gold">
+                <h4>Gold - RS.130</h4>
+
+                <!--Gold Seat first row -->
+                <div class="row platinum">
+                    <div class="row-label">A</div>
+                    <!-- First 5 seats -->
+                    <div class="seat reserved">1</div>
+                    <div class="seat reserved">2</div>
+                    <div class="seat reserved">3</div>
+                    <div class="seat reserved">4</div>
+                    <div class="seat reserved">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat reserved">6</div>
+                    <div class="seat reserved">7</div>
+                    <div class="seat reserved">8</div>
+                    <div class="seat reserved">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat reserved">13</div>
+                    <div class="seat reserved">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat reserved">19</div>
+                    <div class="seat reserved">20</div>
+                </div>
+
+
+
+                <!--Gold Seat Second row -->
+                <div class="row platinum">
+                    <div class="row-label">B</div>
+                    <!-- First 5 seats -->
+                    <div class="seat reserved">1</div>
+                    <div class="seat reserved">2</div>
+                    <div class="seat reserved">3</div>
+                    <div class="seat reserved">4</div>
+                    <div class="seat reserved">5</div>
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat reserved">6</div>
+                    <div class="seat reserved">7</div>
+                    <div class="seat reserved">8</div>
+                    <div class="seat reserved">9</div>
+                    <div class="seat reserved">10</div>
+                    <div class="seat reserved">11</div>
+                    <div class="seat reserved">12</div>
+                    <div class="seat reserved">13</div>
+                    <div class="seat reserved">14</div>
+                    <div class="seat reserved">15</div>
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat reserved">16</div>
+                    <div class="seat reserved">17</div>
+                    <div class="seat reserved">18</div>
+                    <div class="seat reserved">19</div>
+                    <div class="seat reserved">20</div>
+                </div>
+
+
+                <!--Gold Seat three row -->
+                <div class="row platinum">
+                    <div class="row-label">C</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat select">6</div>
+                    <div class="seat select">7</div>
+                    <div class="seat select">8</div>
+                    <div class="seat select">9</div>
+                    <div class="seat select">10</div>
+                    <div class="seat select">11</div>
+                    <div class="seat select">12</div>
+                    <div class="seat select">13</div>
+                    <div class="seat select">14</div>
+                    <div class="seat select">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+                <!--Gold Seat Fourth row -->
+                <div class="row platinum">
+                    <div class="row-label">D</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat reserved">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+                <!--Gold Seat fiveth row -->
+                <div class="row platinum">
+                    <div class="row-label">E</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+                <!--Gold Seat Sixth Row -->
+                <div class="row platinum">
+                    <div class="row-label">F</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat reserved">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+                <!--Gold Seat Seventh Row  -->
+                <div class="row platinum">
+                    <div class="row-label">G</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+                <!--Gold Seat Eight Row -->
+                <div class="row platinum">
+                    <div class="row-label">H</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat reserved">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat reserved">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+                <!--Gold Seat Nine Row  -->
+                <div class="row platinum">
+                    <div class="row-label">I</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat reserved">14</div>
+                    <div class="seat reserved">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+                <!-- Gold Seat Tenth Seat -->
+
+                <div class="row platinum">
+                    <div class="row-label">j</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+            </div>
+
+            <!-- Silver Seat  -->
+            <div class="container text-center" id="silver">
+                <h4>Silver - RS.70</h4>
+
+                <!-- Silver Seat First Row -->
+                <div class="row platinum">
+                    <div class="row-label">K</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+                <!--Silver Seat Sencond row -->
+                <div class="row platinum">
+                    <div class="row-label">L</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat reserved">2</div>
+                    <div class="seat reserved">3</div>
+                    <div class="seat reserved">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat reserved">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat reserved">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat reserved">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+                <!--Silver Seat Third row -->
+                <div class="row platinum">
+                    <div class="row-label">M</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat reserved">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+
+
+
+                <!--Silver Seat Fourth row -->
+                <div class="row platinum">
+                    <div class="row-label">N</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat reserved">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+                </div>
+                <!--Silver Seat Fivth row -->
+                <div class="row platinum">
+                    <div class="row-label">O</div>
+                    <!-- First 5 seats -->
+                    <div class="seat available">1</div>
+                    <div class="seat available">2</div>
+                    <div class="seat available">3</div>
+                    <div class="seat available">4</div>
+                    <div class="seat available">5</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Next 10 seats -->
+                    <div class="seat available">6</div>
+                    <div class="seat available">7</div>
+                    <div class="seat available">8</div>
+                    <div class="seat available">9</div>
+                    <div class="seat available">10</div>
+                    <div class="seat available">11</div>
+                    <div class="seat available">12</div>
+                    <div class="seat available">13</div>
+                    <div class="seat available">14</div>
+                    <div class="seat available">15</div>
+
+                    <!-- Space -->
+                    <div style="width: 40px;"></div>
+
+                    <!-- Last 5 seats -->
+                    <div class="seat available">16</div>
+                    <div class="seat available">17</div>
+                    <div class="seat available">18</div>
+                    <div class="seat available">19</div>
+                    <div class="seat available">20</div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <h6 class="screen"><img src="image/screen-icon.png" alt="screen-icon" width="30%"></h6>
+        </div>
+
+        <!-- fooder in page -->
+        <div class="container" style="margin-bottom: 80px;">
+            <div class="row">
+                <div class="col-12" style="background-color: #ffdae2;border-radius: 6px;">
+                    <footer>
+                        <div class="row " style="margin-top: 50px;">
+                            <div class="col-md-5">
+                                <h4 style="margin-top: 20px; color: #6b5c5c;">Gold-Rs.130</h4>
+                                <!-- style="margin-top: 45px; " -->
+                            </div>
+                            <div class="col-md-5">
+                                <h5 style="color: #937798;">Ticket-10X130</h5>
+                                <h3 style="color: #af3173;">Total : Rs.1,300</h3>
+
+                            </div>
+                            <div class="col-md-2">
+                                <h3 id="book" style=" margin-bottom: 30px;">Book</h3>
+
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        
+
+</body>
+
+</html>

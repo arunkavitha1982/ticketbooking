@@ -1,0 +1,30 @@
+#language1{
+    border-style: solid;
+    border-radius: 40px; 
+    padding: 5px;
+    text-align: center;
+    
+}
+
+
+#border {
+    border-style: solid;
+    background-color: rgba(170,1,228,255);
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#upcome {
+    border:2px solid;
+    background-color: white;
+    color: rgba(187,187,187,255);
+    border-left: 40px;
+    border-color: rgba(170,1,228,255); 
+}
+#language1{
+    color: rgb(180, 167, 167);
+
+}

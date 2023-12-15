@@ -1,0 +1,169 @@
+.row-label {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 30px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background: -webkit-linear-gradient(#A50080, #EF3A65);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#show-timing {
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+
+.nav-bar {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.nav-bar.select {
+    background-image: linear-gradient(#A50080, #EF3A65);
+    border: 2px solid #A50080;
+    margin-top: 70px;
+
+}
+
+.nav-bar.booking {
+    border: 2px solid rgba(187, 187, 187, 255);
+    margin-top: 70px;
+
+}
+
+.nav-bar.available {
+    border: 2px solid #A50080;
+    margin-top: 70px;
+}
+
+/* seat style */
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* seat available style */
+
+.seat.available {
+    color: #A50080;
+    border: 2px solid #A50080;
+    border-radius: 6px;
+
+}
+
+/* seat reserved style */
+
+.seat.reserved {
+    color: rgba(187, 187, 187, 255);
+    border: 2px solid rgba(187, 187, 187, 255);
+    cursor: not-allowed;
+    border-radius: 6px;
+}
+
+/* seat select style */
+
+.seat.select {
+    background-image: linear-gradient(#A50080, #EF3A65);
+    border: 2px solid #A50080;
+    color: rgba(254, 174, 255, 255);
+    border-radius: 6px;
+}
+
+#platinum {
+    margin-top: 35px;
+}
+
+#gold {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#silver {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.row.platinum {
+    margin-left: 65px;
+
+}
+
+h4 {
+    color: gray;
+}
+
+.row.head {
+    text-align: center;
+    background: -webkit-linear-gradient(#A50080, #EF3A65);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 4px outset;
+    justify-content: center;
+}
+
+#head h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+#h6 {
+    margin-top: 40px;
+}
+
+#book {
+    background-image: linear-gradient(#A50080, #EF3A65);
+    border: 2px solid #A50080;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    
+
+
+}
+
+.screen {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #937798;
+
+
+}
+
+/* active select book button content  */
+.small-btn-text-content {
+    margin-top: 17px;
+    margin-left: 80px;
+}

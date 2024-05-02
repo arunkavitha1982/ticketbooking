@@ -1,30 +1,47 @@
 #language1{
     border-style: solid;
     border-radius: 40px; 
-    padding: 5px;
     text-align: center;
+    color: gray;
+    border-color: #c5079c; 
+
     
 }
 
-
-#border {
+#language{
     border-style: solid;
-    background-color: rgba(170,1,228,255);
-    color: white;
-    border-radius: 40px;
+    border-radius: 40px; 
     text-align: center;
-    margin-top: 40px;
-
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+       
 }
 
-#upcome {
-    border:2px solid;
-    background-color: white;
-    color: rgba(187,187,187,255);
-    border-left: 40px;
-    border-color: rgba(170,1,228,255); 
-}
-#language1{
-    color: rgb(180, 167, 167);
+.active {
+    text-align: center;
+    background-color: red;
+    padding: 3%;
+    border-radius: 50px;
+    margin-right: -50px;
+    margin-bottom: -3px;
+    margin-left: -14px;
+    color: aliceblue;
+    background-image: linear-gradient(#A50080, #EF3A65);
+
 
 }
+p{
+    border: 2px solid rgba(187, 187, 187, 255); 
+    text-align: center; 
+    cursor: pointer;
+    border-radius: 6px; 
+    color: rgba(187, 187, 187, 255);
+    font-size: small;
+}
+
+
+
+
+

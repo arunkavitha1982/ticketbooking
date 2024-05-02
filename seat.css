@@ -16,12 +16,6 @@
 
 }
 
-#show-timing {
-    border: 2px solid red;
-    text-align: center;
-    border-radius: 6px;
-}
-
 
 
 .nav-bar {
@@ -147,9 +141,6 @@ h4 {
     border-radius: 10px;
     color: white;
     font-size: larger;
-    
-
-
 }
 
 .screen {
@@ -158,12 +149,24 @@ h4 {
     text-align: center;
     padding: 10px;
     color: #937798;
-
-
 }
 
 /* active select book button content  */
 .small-btn-text-content {
     margin-top: 17px;
     margin-left: 80px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .col-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
 }

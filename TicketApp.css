@@ -3,9 +3,7 @@
     border-radius: 40px; 
     text-align: center;
     color: gray;
-    border-color: #c5079c; 
-
-    
+    border-color: #c5079c;    
 }
 
 #language{
@@ -15,8 +13,7 @@
     color: gray;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
-       
+    font-size: 20px;       
 }
 
 .active {
